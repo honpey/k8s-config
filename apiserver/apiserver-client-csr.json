@@ -1,0 +1,16 @@
+{
+  "CN": "apiserver",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C": "China",
+      "ST": "Beijing",
+      "L": "Beijing",
+      "O": "apiserver",
+      "OU": "apiserver"
+    }
+  ]
+}
