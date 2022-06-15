@@ -1,0 +1,11 @@
+kube-apiserver \
+--service-account-signing-key-file=pki/sa.key \
+--service-account-issuer=https://kubernetes.default.svc.cluster.local \
+--etcd-servers=https://etcd.io:2379 \
+--service-account-key-file=pki/sa.pub \
+--etcd-cafile=pki/ca.pem \
+--etcd-certfile=pki/etcd/etcd-client.pem \
+--etcd-keyfile=pki/etcd/etcd-client-key.pem \
+--tls-private-key-file=pki/apiserver/apiserver-key.pem \
+--tls-cert-file=pki/apiserver/apiserver.pem \
+--token-auth-file=pki/tokenfile
