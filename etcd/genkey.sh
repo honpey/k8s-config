@@ -5,7 +5,6 @@ cfssl gencert \
   -profile=kubernetes \
   etcd-csr.json | cfssljson -bare etcd
 
-
 cfssl gencert \
   -ca=../cfssl/ca.pem \
   -ca-key=../cfssl/ca-key.pem \
