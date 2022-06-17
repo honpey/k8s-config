@@ -4,7 +4,7 @@
             "expiry": "168h"
         },
         "profiles": {
-            "www": {
+            "kubernetes": {
                 "expiry": "8760h",
                 "usages": [
                     "signing",
