@@ -1,0 +1,1 @@
+openssl req -x509 -nodes -days 365000 -newkey rsa:2048 -keyout private.key -out server.crt
